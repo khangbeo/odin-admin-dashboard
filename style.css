@@ -87,7 +87,7 @@ h1 i {
 
 .main-content {
   width: 100%;
-  padding: 40px 30px;
+  padding: 40px 30px 60px 30px;
   display: grid;
   grid-template-columns: auto 30%;
   background-color: rgb(235, 235, 235);
@@ -103,6 +103,7 @@ hr {
 
 .projects {
   display: grid;
+  height: 100%;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   margin-top: 10px;
@@ -138,7 +139,9 @@ hr {
 
 .main-right {
   margin-left: 30px;
+
   display: grid;
+
   gap: 25px;
 }
 
